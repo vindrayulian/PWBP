@@ -1,0 +1,109 @@
+body{
+    font: 16px/28px;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: dimgray;
+    z-index: 9999;
+
+}
+
+.container{
+    width: 960px;
+    margin: 80px auto;
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+    text-align: center;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+    position: absolute;
+    position: relative;
+    right: 0.5%;
+
+}
+
+.header a{
+    text-decoration: none ;
+    color: dimgrey;
+    padding: 5px;
+
+}
+
+.header a:hover{
+     color: #333;
+}
+
+.gm{
+    height : 500px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 5px solid dimgray; 
+}
+
+.main{
+    padding: 20px;
+    width: 480px ;
+    box-sizing: border-box;
+    float: left;
+    background-color: white;
+    height: 500px;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.atas{
+    height: 50px;
+}
+
+.atas h1{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.sd{
+    padding: 20px;
+    width: 480px ;
+    box-sizing: border-box;
+    float: right;
+    background-color: white;
+    height: 500px;
+}
+
+marquee{
+    margin-top: 23px;
+    font-size: 20px;
+    color: aliceblue;
+    word-spacing: 10px;
+}
+
+.cf::before,
+.cf::after{
+    content: "";
+    display: table;
+}
+
+.cf::after{
+    clear: both;
+}
+
+.cf{
+    *zoom: 1;
+}

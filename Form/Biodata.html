@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>Biodata</title>
+    <style>
+      body{
+        background-image: url(daun.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      form{
+        position: absolute;
+        top: 13%;
+        right: 39%;
+        
+      }
+
+      .beranda{
+        position: absolute;
+        bottom: 5%;
+        right: 46%;
+      }
+
+      button{
+        width: 180px;
+        height: 60px;
+        border: none;
+        border-radius: 20px;
+        background-color: aquamarine;
+      }
+
+      a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+
+      h1{
+        position: absolute;
+        right: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Biodata</h1>
+    <form>
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+          <td><label for="Nama">Nama:</label></td>
+          <td><input type="text" name="Nama" id="" placeholder="Masukan Nama anda"/></td>
+        </tr>
+
+        <tr>
+          <td><label for="Kelas">Kelas:</label></td>
+          <td>
+            <select>
+                <option>XI RPL 1</option>
+                <option>XI RPL 2</option>
+            </select>
+            
+        </td>
+        </tr>
+
+        <tr>
+          <td><label for="Tempat Tanggal Lahir">Tempat Tangal Lahir:</label></td>
+          <td><input type="text" name="Tempat Tanggal Lahir" id="" placeholder="Masukan Tempat Lahir"/> <br />
+          <input type="date" name="Tanggal Lahir" id="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Alamat">Alamat Rumah:</label></td>
+          <td><textarea name="Alamat" id="" cols="28" rows="5" placeholder="Masukan Alamat Rumah"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><label for="Email">Email:</label></td>
+          <td><input type="email" name="email" id="" placeholder="Masukan Alamat Email"/></td>
+        </tr>
+
+        <tr>
+          <td><label for="Nomer HP">Nomer HP:</label></td>
+          <td><input type="text" name="hp" id="" placeholder="Masukan Nomer HP anda"/></td>
+        </tr>
+
+        <tr>
+          <td><label for="Hobi">Hobi:</label></td>
+          <td><input type="text" name="Hobi" id="" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
+          <td>
+            <input type="radio" name="jenis kelamin" id="" />
+            <label for="">Laki-laki</label><br>
+            <input type="radio" name="jenis kelamin" id="">
+            <label for="">Perempuan</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Peminatan">Peminatan</label></td>
+          <td>
+            <input type="checKbox" name="peminatan" id="">
+            <label for="">UI/UX</label><br>
+            <input type="checKbox" name="peminatan" id="">
+            <label for="">WEB</label><br>
+            <input type="checKbox" name="peminatan" id="">
+            <label for="">ANDROID</label>
+             </td>
+        </tr>
+      </table>
+    </form>
+
+    <div class="beranda">
+    <button><a href="Beranda.html">Beranda</a></button>
+    </div>
+        
+  </body>
+</html>

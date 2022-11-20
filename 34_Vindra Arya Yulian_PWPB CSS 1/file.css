@@ -1,0 +1,159 @@
+         /* MARGIN */
+         h1,ul,li,div,html,body{
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        /* Awal Header */
+        .header li{
+            list-style: none;
+            float: left;
+        }
+        
+        .header{
+            background-color: bisque;
+            height: 100px;
+        }
+
+        .header-gam img{
+            margin-left: -10px;
+            margin-top: 5px;
+            width: 120px;
+            height: 90px;
+        }
+
+        .header-logo{
+            font-size: 36px;
+            float: left;
+            padding: 10px;
+            margin-top: -80px;
+            margin-left: 100px;
+        }
+
+        .header-list{
+            float: left;
+            margin-top: -77px;
+            margin-left: 330px;
+        
+        }
+
+        li{
+            padding: 20px;
+        }
+        /* Akhir Header */
+
+
+
+        /* Awal Main */
+        .main{
+            height: 1000px;
+            background-image: url(galeri/moo.jp);
+            background-repeat: no-repeat;
+        }
+
+        .kolom h1{
+            color: red;
+            font-family: sans-serif;
+            margin-left: 45px;
+            font-size: 50px;
+        }
+
+        .kolom h2{
+            color: black;
+            margin-top: 8px;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+
+         .selected{
+            font-size: 25px;
+        }
+
+        h3{
+            margin-top: 90px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        .p{
+            border-bottom: 3px solid black;
+            margin-left: 30px;
+            margin-right: 100px;
+        }
+
+        .gam img{
+            float: left;
+            padding-left: 50px;
+            height: 150px;
+            width: 150px;
+            margin-top: 10px;
+        }
+
+        
+        .cep{
+            float: left;
+            padding-left: 5px;
+            margin-left: -20px;
+        }
+
+        .cep figcaption{
+            text-align: center;
+            padding-top: 20px;
+            margin-left: 50px;
+        }
+
+        .hub{
+            margin-top: 300px;
+            margin-left: 40px;
+        }
+
+        .hub h2{
+            color: black;
+            border-bottom: 3px solid black;
+            width: 1350px;
+        }
+
+        .hub input{
+            height: 30px;
+            width: 235px;
+        }
+
+        .hub button{
+            width: 230px;
+            height: 35px;
+            border: none;
+            background-color: rgb(118, 117, 117);
+        }
+
+        /* Akhir Main */
+
+
+
+        /* Awal Footer */
+        .footer{
+            background-color: deepskyblue;
+            height: 300px;
+
+        }
+
+        .jdl,h2{
+            position: absolute;
+            padding-top: 5px;
+            padding-left: 18px;
+            color: aliceblue;
+        }
+
+        .header-footer li{
+            color: aliceblue;
+            list-style: none;
+            margin-left: 88%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .header-footer{
+            padding-top: 50px;
+        }
+        /* Akhir Footer */

@@ -1,0 +1,210 @@
+.jumbotron {
+    padding-top: 10rem;
+    background-color: #FFD6EC;
+}
+
+.navbar {
+    background-color: #FFA1CF;
+}
+section {
+    padding-top: 6rem;
+}
+
+form {
+    padding-top: 6rem;
+}
+
+
+.galeri1 li{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+}
+
+.galeri1 li span{
+    display: block;
+    width: 300px;
+    height: 170px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 200px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0) rotate(0)
+}
+
+.galeri1 li a:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+
+
+
+.galeri2 li{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+}
+
+.galeri2 li span{
+    display: block;
+    width: 300px;
+    height: 170px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 200px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0) rotate(0)
+}
+
+.galeri2 li a:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+
+
+
+.galeri3 li{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+}
+
+.galeri3 li span{
+    display: block;
+    width: 300px;
+    height: 170px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 200px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0) rotate(0)
+}
+
+.galeri3 li a:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+
+
+
+/* Overlay */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.0);
+    z-index: 9999;
+    transition: 1s;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.overlay img{
+    max-height: 100%;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
+
+.overlay:target img{
+    animation: zooDanFade 1s;
+}
+
+.overlay .close{
+    position: absolute;
+    top: 60px;
+    left: 22.5%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 70px;
+    width: 32px;
+    opacity: 0;
+}
+
+.overlay:target .close{
+    animation: slideDownFade 1s .5s forwards;
+}
+
+
+
+@keyframes slideDownFade {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+/* overlay */
+
+
+.cek {
+    position: relative;
+    left: 20px;
+}
+
+form button{
+    position: relative;
+    left: 20px;
+}
+
+.navbar2 {
+    background-color: #FFA1CF;
+    height: 250px;
+}
+
+.judul {
+    position: relative;
+    top: 30px;
+    left: -40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar2 li{
+    float: none;
+    position: relative;
+    top: 20px;
+}

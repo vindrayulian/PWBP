@@ -1,0 +1,525 @@
+@font-face {
+    font-family: popins;
+    src: url(font/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    font-family: popins;
+}
+
+/* css navbar */
+.navbar {
+    background-color: #2F8F9B;
+    z-index: 99999;
+}
+
+
+.accordion li{
+    list-style: none;
+    text-decoration-style: none;
+}
+/* akhir css navbar */
+
+/* css beranda */
+.beranda h1 {
+   position: relative;
+   top: 220px; 
+   z-index: 9999; 
+}
+
+.beranda p{
+    position: relative;
+    top: 185px;
+}
+
+.beranda img{
+    position: relative;
+    bottom: 130px;
+}
+
+.kotak1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 473px;
+    top: 250px;
+    background: #FFDD2D;
+    z-index: 1;
+}
+
+.kotak2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 493px;
+    top: 230px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+/* .logo{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 913px;
+    top: 153px;
+    background: #2F8F9B;
+} */
+
+/* akhir css beranda */
+
+/* css deskripsi */
+.deskripsi h1{
+    position: relative;
+    top: 470px;
+    left: 400px;
+    z-index: 9999;
+}
+
+.deskripsi p{
+    position: relative;
+    top: 480px;
+    left: 400px;
+}
+
+.kotak3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 497px;
+    top: 780px;
+    background: #86FF99;
+    z-index: 1;
+}
+
+.kotak4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 480px;
+    top: 760px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+}
+/* akhir css deskripsi */
+
+/* css Skill */
+.skill h1{
+    position: relative;
+    top: 650px;
+}
+
+.skill img {
+    position: relative;
+    top: 530px;
+    left: 365px;
+}
+
+.no img{
+    position: relative;
+    top: 600px;
+    left: 1px;
+}
+
+.gs img{
+    position: relative;
+    position: absolute;
+    left: 60%;
+    top: 1300px;
+}
+/* Akhir css Skill */
+
+/* css pekerjaan */
+.pekerjaan {
+    position: relative;
+    top: 750px;
+    width: 100%;
+    height: 1000px;
+    background-color: #ddd;
+}
+
+.pekerjaan h1{
+    position: relative;
+    top: 80px;
+    z-index: 9999;
+    margin-bottom: 20px;
+}
+
+.pekerjaan img{
+    position: relative;
+    left: 15%;
+}
+/* akhir css pekerjaan */
+
+/* css Guru */
+.kolam {
+    position: relative;
+    top: 1000px;
+}
+
+.kolam li{
+    list-style: none;
+    position: relative;
+    right: 20px;
+}
+
+.ju h1{
+    position: relative;
+    bottom: 40px;
+}
+
+.ju img{
+    position: relative;
+    left: 30%;
+    bottom: 5px;
+}
+
+.swiper{
+    width: 930px;
+}
+/* Akhir css Guru */
+
+.galeri{
+    position: relative;
+    top: 1300px;
+    width: 100%;
+    height: 1000px;
+    background-color: #ddd;
+}
+
+.galeri h2{
+    position: relative;
+    top: 40px;
+}
+
+.gallry1 li{
+    position: relative;
+    left: 8%;
+    width: 500px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+}
+
+.gallry1 li span{
+    display: block;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 230px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.gallry2 li{
+    position: relative;
+    right: 33.4%;
+    top: 20px;
+    width: 500px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    list-style: none;
+    float: left;
+    margin-right: 90px;
+}
+
+.gallry2 li span{
+    display: block;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 230px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.gallry3 li{
+    position: relative;
+    left: 39.8%;
+    bottom: 210px;
+    width: 500px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    list-style: none;
+    float: left;
+    margin-right: 90px;
+}
+
+.gallry3 li span{
+    display: block;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 230px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.gallry4 li{
+    position: relative;
+    right: 38.7%;
+    top: 60px;
+    width: 500px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    list-style: none;
+    float: left;
+    margin-right: 90px;
+}
+
+.gallry4 li span{
+    display: block;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 230px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.gallry5 li{
+    position: relative;
+    right: 0.2%;
+    bottom: 148px;
+    width: 500px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    list-style: none;
+    float: left;
+    margin-right: 90px;
+}
+
+.gallry5 li span{
+    display: block;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 230px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.gallry6 li{
+    position: relative;
+    left: 67.7%;
+    bottom: 627px;
+    width: 500px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    list-style: none;
+    float: left;
+    margin-right: 90px;
+}
+
+.gallry6 li span{
+    display: block;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(200, 200, 200,.7);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 230px;
+    color: black;
+    text-shadow: 1px 1px 1px #dddd;
+    font-weight: bold;
+    opacity: 0;
+}
+
+/* overlay */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.0);
+    z-index: 9999;
+    transition: 1s;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.overlay:target img{
+    animation: zooDanFade 1s;
+}
+
+.overlay img{
+    max-height: 100%;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
+
+.overlay .close{
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+@keyframes zooDanFade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* footer */
+
+.footer{
+    position: relative;
+    top: 1300px;
+    width: 100%;
+    height: 400px;
+    background-color: #2F8F9B;
+}
+
+.ak h1{
+    position: relative;
+    right: 53%;
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.services {
+    position: relative;
+    top: 1500px;
+}
+
+
+.ig img{
+    position: relative;
+    bottom: 20px;
+    right: 52%;
+}
+
+.ig h1{
+    position: relative;
+    bottom: 60px;
+    right: 48%;
+    font-size: 28px;
+}
+
+.ig1 img{
+    position: relative;
+    bottom: 50px;
+    right: 52%;
+}
+
+.ig2 img{
+    position: relative;
+    bottom: 35px;
+    right: 52%;
+}
+
+.ig3 img{
+    position: relative;
+    bottom: 20px;
+    right: 52%;
+}
+
+.ig4 img{
+    position: relative;
+    bottom: 5px;
+    right: 52%;
+}
+
+.ig1 h1{
+    position: relative;
+    position: absolute;
+    bottom: 195px;
+    right: 83%;
+    font-size: 28px;
+}
+
+.ig2 h1{
+    position: relative;
+    position: absolute;
+    bottom: 150px;
+    right: 81%;
+    font-size: 28px;
+}
+
+.ig3 h1{
+    position: relative;
+    position: absolute;
+    bottom: 100px;
+    right: 81.4%;
+    font-size: 28px;
+}
+
+.ig4 h1{
+    position: relative;
+    position: absolute;
+    bottom: 55px;
+    right: 79%;
+    font-size: 28px;
+}
+
+.ik marquee{
+    position: relative;
+    bottom: 500px;
+    font-size: 30px;
+    z-index: 999999;
+    word-spacing: 10px;
+}
+
+.ik {
+    width: 100%;
+    height: 50px;
+    background-color: #ddd;
+    z-index: 999999999;
+    position: relative;
+    top: 1300px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Beranda</title>
+    <style>
+      .text{
+        background-color: rgb(0,0,0,);
+        background-color: rgba(0,0,0,0);
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+
+      div::after{
+        content: "";
+        background: url(pantai.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+      }
+
+      .biodata{
+        position: absolute;
+        top: 55%;
+        left: 35%;
+      }
+
+      .tugas{
+        position: absolute;
+        top: 55%;
+        right: 35%;
+      }
+
+      button{
+        border-radius: 20px;
+        border: none;
+        width: 200px;
+        height: 80px;
+        background-color: bisque;
+      }
+
+      a{
+        font-size: 30px;
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <div class="text">
+    <h1>Selamat datang</h1>
+    </div>
+
+    <div class="biodata">
+      <button><a href="Biodata.html">Biodata</a></button>
+    </div>
+
+    <dib class="tugas">
+      <button><a href="Tugas.html">Tugas</a>
+    </div>
+</div>
+  </body>
+</html>
